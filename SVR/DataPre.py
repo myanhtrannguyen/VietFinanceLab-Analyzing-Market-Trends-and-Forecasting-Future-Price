@@ -1,11 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# ## Import Libraries
-
-# In[1]:
-
-
 import os
 import pandas as pd
 import numpy as np
@@ -40,7 +32,7 @@ warnings.filterwarnings("ignore")
 # In[2]:
 
 
-df = pd.read_csv('/content/drive/MyDrive/VietFinanceLab-Analyzing-Market-Trends-and-Forecasting-Future-Price/Dataset/construction/PTC.csv', sep='\t', index_col=0)
+df = pd.read_csv('/Users/trannguyenmyanh/Documents/VietFinanceLab-Analyzing-Market-Trends-and-Forecasting-Future-Price/Dataset/construction/PTC.csv', sep='\t', index_col=0)
 
 
 # In[3]:
@@ -107,10 +99,3 @@ scaler = StandardScaler()
 scaled_data = scaler.fit_transform(dataset)
 
 scaled_data
-
-
-# In[ ]:
-
-
-
-
